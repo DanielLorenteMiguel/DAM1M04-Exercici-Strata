@@ -1,20 +1,391 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stratas.css">
-</head>
-<body>
-    <div class="cabezera">
-        <a href="index.html"><img src="./imagenes/strata-logo.svg"></a>
-        <a href="">Platform</a>
-        <a href="">Workflows</a>
-        <a href="">Atlas</a>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strata - AI Agents for Law Firm Operations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <div class="contenedor">
+        <a href="index.html">
+          <img src="./imagenes/strata-logo.svg" alt="Strata" class="logo-menu" />
+        </a>
+
+        <ul>
+          <li><a href="#plataforma">Platform</a></li>
+          <li><a href="#workflows">Workflows</a></li>
+          <li><a href="#atlas">Atlas</a></li>
+          <li><a href="#gobernanza">Governance</a></li>
+        </ul>
+
+        <div>
+          <span style="font-size: 12px; color: gray; margin-right: 10px;">See us at ILTACON Aug 2026</span>
+          <a href="#demo" class="boton">Book a Demo</a>
+        </div>
+      </div>
     </div>
-    <img src="./imagenes/strata-icon.svg">
-    <h1>The work your firm doesn’t bill for, done.</h1>
-    <h3>AI agents that run the operational work your firm doesn’t bill for. We turn it into recovered revenue and reclaimed capacity.</h3>
-</body>
+
+    <div id="portada" class="contenedor">
+      <img src="./imagenes/strata-icon.svg" alt="Icono Strata" class="icono-portada" />
+
+      <h1>The work your firm doesn’t bill for, done.</h1>
+      <p>
+        AI agents that run the operational work your firm doesn’t bill for. We
+        turn it into recovered revenue and reclaimed capacity.
+      </p>
+
+      <br/>
+
+      <div class="fila" style="justify-content: flex-start;">
+        <a href="#demo" class="boton">Book a Demo</a>
+        <a href="#plataforma" class="enlace">See the platform ↓</a>
+      </div>
+
+      <img
+        src="./imagenes/nexus-screenshot.png"
+        alt="Strata Nexus dashboard"
+        class="captura-portada"
+      />
+    </div>
+
+    <div id="plataforma" class="contenedor seccion">
+      <p class="etiqueta">THE PLATFORM, BRIEFLY</p>
+      <h2>One platform. Three surfaces.</h2>
+
+      <div class="fila">
+        <div class="tarjeta">
+          <h3>Strata Atlas</h3>
+          <p>
+            Where your firm’s operational map lives. Data sources connected,
+            knowledge organized, ontology managed, workflows configured. The
+            technical surface, operated by your innovation and IT teams
+            alongside ours.
+          </p>
+        </div>
+
+        <div class="tarjeta">
+          <h3>Strata Nexus</h3>
+          <p>
+            The executive dashboard. Operational Value at the top: Time Saved,
+            Revenue Recovered. Every workflow’s health, every integration’s
+            status, and a Morning Brief in your inbox. Built for the CIO, CFO,
+            COO and Managing Partner.
+          </p>
+        </div>
+
+        <div class="tarjeta">
+          <h3>Strata Canvas</h3>
+          <p>
+            The design surface for new automations. Workflows get built here,
+            by our team and your SMEs together, before they’re promoted into
+            production.
+          </p>
+        </div>
+      </div>
+
+      <div class="caja-core">
+        <h3>Strata Core</h3>
+        <p>
+          The engine underneath. Every workflow runs on it. Every dashboard
+          reads from it. Every integration flows through it. One foundation for
+          the work.
+        </p>
+      </div>
+    </div>
+
+    <div class="franja-color">
+      <div class="contenedor">
+        <h2>
+          Every workflow we run is a <b>named automation</b> with an owner and
+          binary acceptance criteria.
+        </h2>
+        <p>We don’t lead with the AI. We lead with the numbers it moves.</p>
+      </div>
+    </div>
+
+    <div class="contenedor seccion">
+      <p class="etiqueta">OPERATIONAL VALUE</p>
+      <h2>Two numbers. Reported every week. Denominated in dollars and hours.</h2>
+
+      <div class="caja-metricas">
+        <div class="fila">
+          <span><b>STRATA NEXUS · OPERATIONAL VALUE</b></span>
+          <span style="color: gray; font-size: 12px;">ILLUSTRATIVE · MID-SIZE FIRM · MONTHLY</span>
+        </div>
+
+        <hr/>
+
+        <div class="fila">
+          <div class="dato">
+            <p>REVENUE RECOVERED</p>
+            <h2>$428,610</h2>
+            <p>Dollars collected that would have been written off. (+18% MoM)</p>
+          </div>
+
+          <div class="dato">
+            <p>CAPACITY RECLAIMED</p>
+            <h2>1,284 hrs</h2>
+            <p>Hours returned to paralegals, billing, and intake. (≈ 12 FTE-weeks)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="evidencia" class="fondo-oscuro">
+      <div class="contenedor">
+        <div class="fila">
+          <div class="dato">
+            <p class="etiqueta">FROM THE FIELD</p>
+            <h2 style="font-size: 70px; margin: 10px 0;">13,000</h2>
+            <p><b>INVOICES A MONTH, ONE CLIENT FIRM</b></p>
+            <p>
+              That was the workload for one firm’s five-to-seven-person appeals
+              team, and below the appeal threshold, the money got walked away
+              from. Strata’s agents now analyze every line-item deduction and
+              draft each appeal narrative for attorney review. Nothing is
+              auto-submitted.
+            </p>
+          </div>
+
+          <div class="ficha-caso">
+            <p><b>ONE CLIENT FIRM</b></p>
+            <hr/>
+            <p>E-billing portals: <b>19</b></p>
+            <p>Appeal cycle: <b>4-6 weeks</b></p>
+            <p>Appeals team: <b>5-7 people</b></p>
+            <p>Auto-submitted appeals: <b>0</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="workflows" class="fondo-crema">
+      <div class="contenedor seccion">
+        <p class="etiqueta">WORKFLOWS WE RUN</p>
+        <h2>Every automation, accountable by name.</h2>
+        <p>
+          Strata operates underneath the billable work, not against it. The
+          workflows on this page are clerical, operational, or administrative.
+        </p>
+
+        <br/>
+
+        <div class="lista-workflows">
+          <div class="item-workflow">
+            <span class="etiqueta">WF · INVOICE MGMT</span>
+            <div>
+              <h3>Invoice management</h3>
+              <p>
+                The e-billing layer of your firm, run by agents: guideline
+                compliance before an invoice goes out, deduction analysis when
+                it comes back, and the portal work in between.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-workflow" style="padding-left: 35px;">
+            <span class="etiqueta">↳ APPEALS</span>
+            <div>
+              <h3>Invoice appeals</h3>
+              <p>
+                Every reduction analyzed against the invoice and the client’s
+                guidelines. Every appeal narrative drafted for attorney review.
+                Nothing is auto-submitted.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-workflow">
+            <span class="etiqueta">WF · COLLECTIONS</span>
+            <div>
+              <h3>Billing follow-up and collections</h3>
+              <p>
+                Proformas chased before they go stale, aged AR worked in 30, 60,
+                and 90 day buckets, client-facing sends approved by a person.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-workflow">
+            <span class="etiqueta">WF · LATERAL</span>
+            <div>
+              <h3>Lateral onboarding</h3>
+              <p>
+                The unbilled drag between signing a lateral and their book
+                billing here: conflicts questionnaires, client and matter
+                transfers, timekeeper and billing setup, systems access.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-workflow">
+            <span class="etiqueta">WF · TRUST</span>
+            <div>
+              <h3>Trust accounting and reconciliation</h3>
+              <p>
+                Three-way reconciliation on schedule instead of when someone
+                finds time, unclaimed-funds aging, disbursement checks.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-workflow">
+            <span class="etiqueta">WF · BACK OFFICE</span>
+            <div>
+              <h3>Back office</h3>
+              <p>
+                AR, AP, payroll support, records and document management.
+                High-volume, rule-heavy, and exactly what agents are for.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="atlas" class="contenedor seccion">
+      <p class="etiqueta">STRATA ATLAS</p>
+      <h2>Your firm’s knowledge, made operational.</h2>
+      <p>The knowledge that runs your firm lives in people’s heads. Atlas puts it to work.</p>
+
+      <br/>
+
+      <div class="fila">
+        <div class="pilar">
+          <h3>Map.</h3>
+          <p>Atlas learns how your firm actually works.</p>
+        </div>
+        <div class="pilar">
+          <h3>Structure.</h3>
+          <p>Your knowledge, organized so an agent can act on it.</p>
+        </div>
+        <div class="pilar">
+          <h3>Operate.</h3>
+          <p>Agents run the work. Recovery reported every week.</p>
+        </div>
+        <div class="pilar">
+          <h3>Refine.</h3>
+          <p>Ask it anything. Correct what it misses. The map stays yours.</p>
+        </div>
+      </div>
+
+      <br/><br/>
+
+      <div class="fila">
+        <div class="tarjeta">
+          <p><b>Pregunta:</b> What does onboarding a lateral hire involve?</p>
+          <p>
+            <b>Systems access</b> gets provisioned, active <b>matters</b>
+            transfer, <b>conflicts</b> re-run against the new book, and the
+            lateral’s client relationships map into the firm’s graph.
+          </p>
+          <p style="font-size: 13px; color: green;">● Traced across 5 nodes in your operational map.</p>
+        </div>
+
+        <div class="tarjeta">
+          <h3>Fee write-off approval</h3>
+          <p>Write-offs over $5,000 route to the Managing Partner for sign-off.</p>
+          <p style="color: green; font-size: 13px;">✔ Confirmed by your firm</p>
+        </div>
+      </div>
+    </div>
+
+    <hr/>
+
+    <div id="gobernanza" class="contenedor seccion">
+      <p class="etiqueta">GOVERNANCE</p>
+      <h2>Built for the people who have to say yes.</h2>
+      <p>Bring your security team to the first demo. What they’ll ask for is what we built first.</p>
+
+      <br/>
+
+      <div class="fila">
+        <div class="tarjeta" style="border-top: 4px solid #19a1ef;">
+          <h3>Cited</h3>
+          <p>Every answer an agent gives carries claim-level citations back to source.</p>
+        </div>
+        <div class="tarjeta" style="border-top: 4px solid #52b272;">
+          <h3>Approved</h3>
+          <p>Human checkpoints are workflow steps. Your people decide; the run resumes the moment they respond.</p>
+        </div>
+        <div class="tarjeta" style="border-top: 4px solid #a22ee5;">
+          <h3>Contained</h3>
+          <p>The Library of Actions works the way your DBAs think: approved actions only, proper credentials, logged completely.</p>
+        </div>
+        <div class="tarjeta" style="border-top: 4px solid #f5c800;">
+          <h3>Controlled</h3>
+          <p>Model and tool choice is governed per step, not per vendor.</p>
+        </div>
+      </div>
+
+      <br/><br/>
+
+      <div class="fila">
+        <div class="paso">
+          <b>01 - Trigger</b>
+          <p>email, schedule, or on demand</p>
+        </div>
+        <div class="paso">
+          <b>02 - Agent works</b>
+          <p>approved actions only</p>
+        </div>
+        <div class="paso">
+          <b>03 - Your team approves</b>
+          <p>wherever judgment matters</p>
+        </div>
+        <div class="paso">
+          <b>04 - Delivered</b>
+          <p>logged end to end</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="demo" class="franja-color">
+      <div class="contenedor">
+        <p class="etiqueta">GET STARTED</p>
+        <h2>See what your firm is currently writing off.</h2>
+        <p>Your firm has a write-off number. Let’s find it.</p>
+        <br/>
+        <a href="#demo" class="boton">Book a Demo</a>
+
+        <br/><br/><br/>
+
+        <div class="fila">
+          <div class="tarjeta">
+            <p class="etiqueta">APPROVALS</p>
+            <p>Your team approves. Agents do the work.</p>
+          </div>
+          <div class="tarjeta">
+            <p class="etiqueta">AUDIT</p>
+            <p>Every run logged end to end.</p>
+          </div>
+          <div class="tarjeta">
+            <p class="etiqueta">SECURITY</p>
+            <p>SSO · encrypted credentials · account isolation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pie">
+      <div class="contenedor fila">
+        <span class="logo" style="color: white;">STRATA</span>
+        <ul>
+          <li><a href="#plataforma">Platform</a></li>
+          <li><a href="#workflows">Workflows</a></li>
+          <li><a href="#atlas">Atlas</a></li>
+          <li><a href="#demo">Book a demo</a></li>
+        </ul>
+        <span>© 2026 Strata AI, Inc.</span>
+      </div>
+    </div>
+  </body>
 </html>
